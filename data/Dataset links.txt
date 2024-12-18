@@ -1,0 +1,15 @@
+This file contains all the links to the datasets used in this study(including Some that were dropout after intial consideration).
+Dataset : Link
+Adult : https://archive.ics.uci.edu/dataset/2/adult
+Bank Marketing : https://archive.ics.uci.edu/dataset/222/bank+marketing
+Breast Cancer Wisconsin : https://archive.ics.uci.edu/dataset/15/breast+cancer+wisconsin+original
+Credit Risk : https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data
+Diabetes : https://www.kaggle.com/datasets/mathchi/diabetes-data-set/data
+Dry Beans Dataset : https://archive.ics.uci.edu/dataset/602/dry+bean+dataset
+Heart Disease : https://archive.ics.uci.edu/dataset/45/heart+disease
+KDDCUP99 : https://archive.ics.uci.edu/dataset/130/kdd+cup+1999+data
+Mushroom : https://archive.ics.uci.edu/dataset/73/mushroom
+Obesity : https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition
+statlog Landsat satellite : https://archive.ics.uci.edu/dataset/146/statlog+landsat+satellite
+Student Dropout : https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success
+Website Phishing : https://archive.ics.uci.edu/dataset/379/website+phishing
