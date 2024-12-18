@@ -1,0 +1,134 @@
+slurmstepd: error: *** JOB 2135 ON hpc2 CANCELLED AT 2024-01-11T02:48:37 ***
+==============  Bank Marketing  =============
+Best Model saved to: bank_model.joblib
+Best Model Parameters: {'learning_rate': 0.15, 'n_estimators': 150, 'num_leaves': 80}
+Metrics have been written to: /cluster/datastore/muhammu/rerun/BM_grid_metrics_output.md
+Test Accuracy: 0.9354
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       1.00      0.93      0.96      4000
+           1       0.64      0.99      0.78       521
+
+    accuracy                           0.94      4521
+   macro avg       0.82      0.96      0.87      4521
+weighted avg       0.96      0.94      0.94      4521
+
+AUC-ROC: 0.9939
+F1 Score: 0.9411
+Elapsed time: 1720.5269072055817 seconds
+===========================================
+================ Oil Spill ==================
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 937 entries, 0 to 936
+Data columns (total 50 columns):
+ #   Column  Non-Null Count  Dtype  
+---  ------  --------------  -----  
+ 0   class   937 non-null    object 
+ 1   attr1   937 non-null    float64
+ 2   attr2   937 non-null    float64
+ 3   attr3   937 non-null    float64
+ 4   attr4   937 non-null    float64
+ 5   attr5   937 non-null    float64
+ 6   attr6   937 non-null    float64
+ 7   attr7   937 non-null    float64
+ 8   attr8   937 non-null    float64
+ 9   attr9   937 non-null    float64
+ 10  attr10  937 non-null    float64
+ 11  attr11  937 non-null    float64
+ 12  attr12  937 non-null    float64
+ 13  attr13  937 non-null    float64
+ 14  attr14  937 non-null    float64
+ 15  attr15  937 non-null    float64
+ 16  attr16  937 non-null    float64
+ 17  attr17  937 non-null    float64
+ 18  attr18  937 non-null    float64
+ 19  attr19  937 non-null    float64
+ 20  attr20  937 non-null    float64
+ 21  attr21  937 non-null    float64
+ 22  attr22  937 non-null    float64
+ 23  attr23  937 non-null    float64
+ 24  attr24  937 non-null    float64
+ 25  attr25  937 non-null    float64
+ 26  attr26  937 non-null    float64
+ 27  attr27  937 non-null    float64
+ 28  attr28  937 non-null    float64
+ 29  attr29  937 non-null    float64
+ 30  attr30  937 non-null    float64
+ 31  attr31  937 non-null    float64
+ 32  attr32  937 non-null    float64
+ 33  attr33  937 non-null    float64
+ 34  attr34  937 non-null    float64
+ 35  attr35  937 non-null    float64
+ 36  attr36  937 non-null    float64
+ 37  attr37  937 non-null    float64
+ 38  attr38  937 non-null    float64
+ 39  attr39  937 non-null    float64
+ 40  attr40  937 non-null    float64
+ 41  attr41  937 non-null    float64
+ 42  attr42  937 non-null    float64
+ 43  attr43  937 non-null    float64
+ 44  attr44  937 non-null    float64
+ 45  attr45  937 non-null    float64
+ 46  attr46  937 non-null    float64
+ 47  attr47  937 non-null    float64
+ 48  attr48  937 non-null    float64
+ 49  attr49  937 non-null    float64
+dtypes: float64(49), object(1)
+memory usage: 366.1+ KB
+Best Model saved to: oilspill_model.joblib
+Best Model Parameters: {'learning_rate': 0.05, 'n_estimators': 150, 'num_leaves': 31}
+Metrics have been written to: /cluster/datastore/muhammu/rerun/oilspill_grid_metrics_output.md
+Test Accuracy: 0.9681
+AUC-ROC: 0.9535
+F1 Score: 0.5714
+Elapsed time: 3327.037866830826 seconds
+===========================================
+================ Stat Log ==================
+Best Model saved to: statlog.joblib
+Best Model Parameters: {'learning_rate': 0.15, 'n_estimators': 150, 'num_leaves': 31}
+/cluster/datastore/muhammu/mastenv/lib/python3.8/site-packages/sklearn/metrics/_ranking.py:1133: UndefinedMetricWarning: No positive samples in y_true, true positive value should be meaningless
+  warnings.warn(
+Metrics have been written to: /cluster/datastore/muhammu/rerun/statlog_grid_metrics_output.md
+Test Accuracy: 0.9140
+Classification Report:
+               precision    recall  f1-score   support
+
+           1       0.99      0.99      0.99       461
+           2       0.98      0.97      0.98       224
+           3       0.88      0.94      0.91       397
+           4       0.79      0.66      0.72       211
+           5       0.93      0.92      0.92       237
+           7       0.89      0.90      0.89       470
+
+    accuracy                           0.91      2000
+   macro avg       0.91      0.90      0.90      2000
+weighted avg       0.91      0.91      0.91      2000
+
+AUC-ROC: 0.9902
+F1 Score: 0.9125
+Elapsed time: 2921.1954987049103 seconds
+===========================================
+==============  Mushroom  =============
+  class  cap-diameter cap-shape  ... spore-print-color habitat season
+0     p         15.26         x  ...               NaN       d      w
+1     p         16.60         x  ...               NaN       d      u
+2     p         14.07         x  ...               NaN       d      w
+3     p         14.17         f  ...               NaN       d      w
+4     p         14.64         x  ...               NaN       d      w
+
+[5 rows x 21 columns]
+Target Class Distribution:
+class
+p    33888
+e    27181
+Name: count, dtype: int64
+
+Best Model saved to: mushroom.joblib
+Best Model Parameters: {'learning_rate': 0.15, 'n_estimators': 150, 'num_leaves': 50}
+Metrics have been written to: /cluster/datastore/muhammu/rerun/Mushroom_grid_metrics_output.md
+Test Accuracy: 0.9999
+AUC-ROC: 1.0000
+F1 Score: 0.9999
+Elapsed time: 10754.122669696808 seconds
+===========================================
